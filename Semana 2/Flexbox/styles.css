@@ -1,0 +1,60 @@
+/* Importación de fuente desde CDN Fonts */
+@import url('https://fonts.cdnfonts.com/css/zilla-slab');
+
+/* Variables de colores y tipografía */
+:root {
+    --color-primario: #0C203E;
+    --color-secundario: #A3A3A3;
+    --color-fondo: #F4F4F4;
+    --color-texto: #333;
+    --fuente-primaria: 'Zilla Slab', serif;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: var(--fuente-primaria);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* Contenedor principal con Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas de contenido */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para los títulos dentro de las tarjetas */
+.card h2 {
+    color: var(--color-primario);
+    margin-bottom: 10px;
+}

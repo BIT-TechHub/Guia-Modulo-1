@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Selectores */
+.intro p {
+    font-style: italic;
+}
+
+.destacado {
+    color: blue;
+    font-weight: bold;
+}
+
+#ejemplo-id {
+    color: red;
+}
+
+.ejemplo {
+    background: lightgray;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.descendente {
+    color: green;
+}
+
+/* Modelo de caja */
+.caja {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    background: lightblue;
+    text-align: center;
+}
