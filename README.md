@@ -4,36 +4,53 @@ Bienvenido al repositorio del **Módulo 1** del Bootcamp de Desarrollo Web. Aqu�
 
 ## 📌 Contenido del Repositorio
 
-El repositorio está organizado en carpetas según los temas abordados en el módulo:
+Este repositorio cubre los siguientes temas fundamentales:
 
-1. **Fundamentos HTML** - Estructura básica de una página web, etiquetas HTML y buenas prácticas.
-2. **Fundamentos CSS** - Estilización de páginas web, propiedades básicas de CSS y selectores.
-3. **CSS Flexbox y Variables** - Uso de Flexbox para diseño responsivo y variables CSS para reutilización de estilos.
-4. **CSS Grid** - Sistema de diseño avanzado con CSS Grid.
-5. **CSS Media Queries** - Creación de sitios web responsivos con Media Queries.
-6. **Fundamentos JavaScript** - Variables, tipos de datos y operadores en JavaScript.
-7. **Control de Flujo en JavaScript** - Uso de condicionales y estructuras de repetición.
-8. **Manejo del DOM** - Manipulación del contenido HTML y eventos con JavaScript.
-9. **Consumo de APIs** - Uso de `fetch()` y `async/await` para interactuar con APIs externas.
-10. **Bootstrap** - Uso del framework CSS para diseño web rápido y responsivo.
+- **Fundamentos HTML**: Estructura básica de una página web, etiquetas HTML y buenas prácticas.
+- **Fundamentos CSS**: Estilización de páginas web, propiedades básicas de CSS y selectores.
+- **CSS Flexbox y Variables**: Uso de Flexbox para diseño responsivo y variables CSS para reutilización de estilos.
+- **CSS Grid**: Sistema de diseño avanzado con CSS Grid.
+- **CSS Media Queries**: Creación de sitios web responsivos con Media Queries.
+- **Fundamentos JavaScript**: Variables, tipos de datos y operadores en JavaScript.
+- **Control de Flujo en JavaScript**: Uso de condicionales, estructuras de repetición y bucles.
+- **Manejo del DOM**: Manipulación del contenido HTML y eventos con JavaScript.
+- **Consumo de APIs**: Uso de `fetch()` y `async/await` para interactuar con APIs externas.
+- **Bootstrap**: Uso del framework CSS para diseño web rápido y responsivo.
 
-## 📂 Estructura de Carpetas
+Cada tema incluye ejemplos prácticos con código bien documentado y explicaciones claras.
 
-```plaintext
-📦 modulo-1-desarrollo-web
- ┣ 📂 fundamentos-html
- ┃ ┣ 📜 index.html
- ┃ ┗ 📜 README.md
- ┣ 📂 fundamentos-css
- ┃ ┣ 📜 estilos.css
- ┃ ┗ 📜 README.md
- ┣ 📂 css-flexbox-variables
- ┣ 📂 css-grid
- ┣ 📂 css-mediaqueries
- ┣ 📂 fundamentos-js
- ┣ 📂 control-flujo-js
- ┣ 📂 manejo-dom
- ┣ 📂 consumo-apis
- ┣ 📂 bootstrap
- ┣ 📜 README.md
+## 🚀 Requisitos Previos
 
+Para trabajar con este repositorio, necesitarás:
+
+- Un navegador web moderno (Chrome, Firefox, Edge).
+- Un editor de código como **VS Code**.
+- (Opcional) Una extensión de servidor local, como **Live Server** en VS Code.
+
+## 🚀 Cómo Usar Este Repositorio
+
+1. **Clona este repositorio** en tu máquina local:
+   ```sh
+   git clone https://github.com/BIT-TechHub/Guia-Modulo-1.git
+2. **Explora los archivos** y revisa el código de cada tema.
+3. **Abre los archivos HTML en tu navegador** o usa **Live Server** en **VS Code**.
+4. **Modifica el código y experimenta** para mejorar tu aprendizaje.
+
+## 📖 Recursos Recomendados
+
+- [📄 Documentación oficial de HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [🎨 Guía completa de CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [📌 Flexbox CSS en profundidad](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [📏 Guía de CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [📜 JavaScript para principiantes](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
+- [🌐 API Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+- [🖥️ Documentación de Bootstrap](https://getbootstrap.com/)
+
+## 🤝 Contribuciones
+
+Si quieres contribuir con mejoras o sugerencias, abre un **issue** o envía un **pull request**. ¡Toda ayuda es bienvenida! 😊
+
+---
+
+📌 **Autor:** BIT
+📅 **Última actualización:** Marzo 2025
