@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primero pongo los estilos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Luego usted puede agregar los estilos propios -->
+
+    <!-- Link de los íconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Bootstrap | práctica</title>
+</head>
+
+<body class="container bg-body-secondary mt-5">
+    <!-- Inicio header -->
+    <header>
+        <h1>PRÁCTICA: CONCEPTOS BÁSICOS BOOTSTRAP</h1>
+
+        <ol>
+            <li><a href="#integracion">Integrar bootstrap en nuestro proyecto</a></li>
+            <li><a href="#componentes">Componentes de bootstrap</a></li>
+            <li><a href="#iconos">Implementación de íconos de bootstrap</a></li>
+        </ol>
+    </header>
+
+    <!-- Inicio main -->
+    <main>
+
+        <!-- Integración con bootstrap -->
+        <section id="integracion">
+            <h3>Incluir a través de CDN</h3>
+            <article class="row">
+                <div class="card col" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Estilos de bootstrap</h5>
+                        <p class="card-text">
+                            <code>
+                                &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+                                rel="stylesheet"
+                                integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+                                crossorigin="anonymous"&gt;
+                            </code>
+                        </p>
+                    </div>
+                </div>
+                <div class="card col" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Funcionalidades de bootstrap</h5>
+                        <p class="card-text">
+                            <code>
+                                &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                                crossorigin="anonymous"&gt;&lt;/script&gt;
+                            </code>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Componentes de bootstrap -->
+        <section id="componentes">
+            <h3>Componentes de bootstrap</h3>
+            <article>
+                <h4>Componente acordeón</h4>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Grid de Bootstrap
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <p class="accordion-body">
+                                <strong>Bootstrap tiene conceptos básicos necesarios.</strong> Uno de ellos es el grid
+                                de bootstrap que estaremos viendo más adelante
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Breackpoints
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                clases de bootstrap
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Implementación de íconos de bootstrap -->
+        <section id="iconos">
+            <h3>Íconos de bootstrap</h3>
+            <div>
+                <i class="bi bi-person-circle"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-heart-fill"></i>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Inicio footer -->
+    <footer>
+
+    </footer>
+
+
+    <!-- ANTES DEL CIERRE DE BODY poner las funcionalidades de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
